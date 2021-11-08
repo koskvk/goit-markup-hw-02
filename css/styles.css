@@ -31,7 +31,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
-  /* letter-spacing: 0.03em; */
   color: var(--second-color-logo);
 }
 
@@ -101,7 +100,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  /* letter-spacing: 0.03em; */
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
@@ -109,7 +107,6 @@ body {
 .specifications-text {
   font-size: 14px;
   line-height: 1.71;
-  /* letter-spacing: 0.03em; */
 }
 
 /*------------ WE DO ------------*/
@@ -119,7 +116,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /* letter-spacing: 0.03em; */
   color: var(--secondary-title-color);
 }
 
@@ -134,7 +130,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /* letter-spacing: 0.03em; */
   color: var(--secondary-title-color);
 }
 
@@ -143,7 +138,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  /* letter-spacing: 0.03em; */
   color: var(--secondary-title-color);
 }
 
@@ -151,7 +145,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  /* letter-spacing: 0.03em; */
   color: var(--primary-text-color);
 }
 
@@ -165,7 +158,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
-  /* letter-spacing: 0.03em; */
   color: var(--primary-white-color);
 }
 
@@ -179,14 +171,12 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* letter-spacing: 0.03em; */
   color: var(--primary-white-color);
 }
 
 .footer-contacts {
   font-size: 14px;
   line-height: 24px;
-  /* letter-spacing: 0.03em; */
   color: var(--footer-contacts-color);
 }
 
