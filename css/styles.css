@@ -85,6 +85,7 @@ body {
 }
 
 .hero-btn {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -123,6 +124,10 @@ body {
 }
 
 /*------------ COMAND ------------*/
+
+.team-section {
+  background-color: var(--secondary-background-color);
+}
 
 .team-title {
   font-weight: 700;
@@ -192,6 +197,7 @@ body {
 
 /*------------ PORTFOLIO BUTTON ------------*/
 .portfolio-btn {
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
