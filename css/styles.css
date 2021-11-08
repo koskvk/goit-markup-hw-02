@@ -1,0 +1,190 @@
+:root {
+  --primary-white-color: #ffffff;
+  --secondary-title-color: #212121;
+  --primary-text-color: #757575;
+  --second-color-logo: #000000;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*------------ HEADER ------------*/
+
+.logo-header {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em;
+  /* letter-spacing: 0.03em; */
+  color: var(--second-color-logo);
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.logo-header:hover,
+.logo-header:focus {
+  color: var(--accent-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+
+/*------------ HERO ------------*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: var(--primary-background-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/*------------ specifications ------------*/
+
+.specifications-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  /* letter-spacing: 0.03em; */
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.specifications-text {
+  font-size: 14px;
+  line-height: 1.71;
+  /* letter-spacing: 0.03em; */
+}
+
+/*------------ WE DO ------------*/
+
+.wedo-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  /* letter-spacing: 0.03em; */
+  color: var(--secondary-title-color);
+}
+
+/*------------ COMAND ------------*/
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  /* letter-spacing: 0.03em; */
+  color: var(--secondary-title-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  /* letter-spacing: 0.03em; */
+  color: var(--secondary-title-color);
+}
+
+.team-proffesion {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  /* letter-spacing: 0.03em; */
+  color: var(--primary-text-color);
+}
+
+/*------------ Footer ------------*/
+.footer-section {
+  background-color: var(--primary-background-color);
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19em;
+  /* letter-spacing: 0.03em; */
+  color: var(--primary-white-color);
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+
+.footer-addres {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* letter-spacing: 0.03em; */
+  color: var(--primary-white-color);
+}
+
+.footer-contacts {
+  font-size: 14px;
+  line-height: 24px;
+  /* letter-spacing: 0.03em; */
+  color: var(--footer-contacts-color);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
