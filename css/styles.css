@@ -53,7 +53,8 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.current {
   color: var(--accent-color);
 }
 
@@ -221,4 +222,18 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
+}
+
+/*------------ hide title ------------*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
