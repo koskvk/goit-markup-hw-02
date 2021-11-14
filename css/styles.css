@@ -24,23 +24,32 @@ body {
   text-decoration: none;
 }
 
+/*------------ hide title ------------*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /*------------ HEADER ------------*/
 
-.logo-header {
-  font-family: Raleway;
+.logo {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
+  color: var(--accent-color);
+}
+
+.logo-heder-color {
   color: var(--second-color-logo);
-}
-
-.logo-color {
-  color: var(--accent-color);
-}
-
-.logo-header:hover,
-.logo-header:focus {
-  color: var(--accent-color);
 }
 
 .header-link {
@@ -51,6 +60,10 @@ body {
   color: var(--secondary-title-color);
 }
 
+.header-contacts:hover,
+.header-contacts:focus,
+.footer-contacts:hover,
+.footer-contacts:focus,
 .header-link:hover,
 .header-link:focus,
 .current {
@@ -65,12 +78,11 @@ body {
   color: var(--primary-text-color);
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
-  color: var(--accent-color);
-}
-
 /*------------ HERO ------------*/
+
+.hero-section {
+  background-color: var(--primary-background-color);
+}
 
 .hero-title {
   font-weight: 900;
@@ -80,7 +92,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: var(--primary-background-color);
 }
 
 .hero-btn {
@@ -92,6 +103,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  border: 0;
+  border-radius: 4px;
 }
 
 /*------------ specifications ------------*/
@@ -153,17 +166,8 @@ body {
   background-color: var(--primary-background-color);
 }
 
-.logo-footer {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19em;
+.logo-footer-color {
   color: var(--primary-white-color);
-}
-
-.logo-footer:hover,
-.logo-footer:focus {
-  color: var(--accent-color);
 }
 
 .footer-addres {
@@ -180,11 +184,6 @@ body {
   color: var(--footer-contacts-color);
 }
 
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--accent-color);
-}
-
 /*------------ PORTFOLIO BUTTON ------------*/
 .portfolio-btn {
   cursor: pointer;
@@ -196,6 +195,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
   background-color: var(--secondary-background-color);
+  border: 0;
+  border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -218,18 +219,4 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
-}
-
-/*------------ hide title ------------*/
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
